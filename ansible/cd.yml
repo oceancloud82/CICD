@@ -1,0 +1,9 @@
+- hosts: localhost
+  remote_user: vagrant
+  sudo: yes
+  roles:
+    - basic
+    - java
+    - docker
+    - registry
+    - jenkins
